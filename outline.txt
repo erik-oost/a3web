@@ -3,13 +3,46 @@ Javascript: Lucy Lin
 Body: Jeffrey Churchley
 
 Menu page:
+- Avoid using only overly generic menu titles 
+(can use things such as about, contact, etc. 
+but should include more interesting ones as well)
+- Also should probably omit using any social links until the contacts
+page so users will have less reason to leave the web page.
 
 About page:
+- A brief or maybe longer history of the company and the route it has taken to
+get where it is now.
+- Also includes the companies approach, mission statement, pledges to the
+environment/communities for sustainability, etc.
 
 Services page:
+- List a breakdown of services and what they entail such as 
+Mapping, Web development, Remote sensing, Data management and analysis, etc.
+- The text blurbs will involve a generic breakdown of what each service is about
+as well as a more specific list of applications/programs that we include with it.
+- Each blurb should have some sort of generic visual/picture that easily
+illustrates what its about at first glance.
 
 Team page:
+- Upload personal pictures alongside a little blurb of position, skillsets
+and background.
+- Can have a little email icon somewhere around each person to allow for 
+direct contact to an individual member.
+- 
 
 Awards page:
+- List of various made up or maybe real accolades that the company has acquired
+over the years illustrating its competence and worth.
 
 Contact page:
+- Use this page for social links and all forms of contact info.
+- Could also include a fill out form that could be linked to a generic company email.
+
+General Ideas: 
+- Hover over abbr tags
+- Clean and concise design (avoid clutter)
+- ***Responsive Design***
+- Each page should have a unique picture maybe in the header or in the background
+that makes it distinct from the others allowing for users to know at an instant
+they have changed pages. The pictures could also have some sort of relation to the
+page material but is probably not entirely necessary.
