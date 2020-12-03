@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="CSS\\style.css"> <!-- external stylesheet link -->
-    <script rel="Javascript\\script.js"></script> <!-- external javascript link -->
+    <script type="text/javascript" src="Javascript\\script.js"></script> <!-- external javascript link -->
     <title> Meet the Team </title> <!-- Page title visible on browser tabs -->
 </head>
 <meta name="viewport" content="width = device-width, initial-scale = 1.0">
@@ -27,10 +27,10 @@
     <div class="row">
         <div class="left_column">
             <div class="headshot_container">
-                <p id="headshot"> <img src="Erik's photo" alt="Erik Oosterbaan Headshot" width="" height=""> </p>
+                <p id="headshot"> <img src="Erik's photo" alt="Erik Oosterbaan Headshot" width="240" height="300"> </p>
             </div>
             <div class="headshot_container">
-                <p id="headshot"> <img src="Lucy's photo" alt="Lucy Lin Headshot" width="" height=""> </p>    
+                <p id="headshot"> <img src="Images\\lucy_headshot.JPG" alt="Lucy Lin Headshot" width="240" height="300"> </p>    
             </div>       
         </div>
         <div class="centre_column">
@@ -40,18 +40,19 @@
             <div class="info_container">
                 <p> Lucy's info here </p>
             </div>
+        </div>
         <div class="right_column">
             <div class="contact_button">
-                <button onclick="contactbutton()"> CONTACT </button>
+                <button onclick="erikcontactbutton()"> CONTACT </button>
             </div>
             <div class="personalemail">
                 <p id="erikemail"></p>
             </div>
             <div class="contact_button">
-                <button onclick="contactbutton()"> CONTACT </button>
+                <button onclick="lucycontactbutton()"> CONTACT </button>
             </div>
             <div class="personalemail">
-                <p id="erikemail"></p>
+                <p id="lucyemail"></p>
             </div>
 
         </div>

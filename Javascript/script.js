@@ -1,7 +1,7 @@
-function contactbutton() {
+function erikcontactbutton() {
     document.getElementById("erikemail").innerHTML = "erik@ourcompany.ca";
 }
-function contactbutton() {
+function lucycontactbutton() {
     document.getElementById("lucyemail").innerHTML = "lucy@ourcompany.ca";
 }
 

@@ -27,11 +27,11 @@
 }
 .centre_column {
 	float: left;
-	width: 50%;
+	width: 45%;
 }
 .right_column {
 	float: left;
-	width: 20%;
+	width: 25%;
 }
 .row:after {
 	content: "";
@@ -39,4 +39,9 @@
 	clear: both;
 }
 /* End columns in team page */
+
+/* css for divs in columns on team page */
+.headshot_container {
+	
+}
 
