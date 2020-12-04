@@ -4,6 +4,18 @@ function erikcontactbutton() {
 function lucycontactbutton() {
     document.getElementById("lucyemail").innerHTML = "lucy@ourcompany.ca";
 }
-function logobutton() {
-    document.getElementById("logotext").
-}
+$(document).ready(function(){
+    $("button1").click(function(){
+        $("#phonenumber").fadeIn(1500);
+    });
+});
+$(document).ready(function(){
+    $("button2").click(function(){
+        $("#email").fadeIn(1500);
+    });
+});
+$(document).ready(function(){
+    $("button3").click(function(){
+        $("#facebookurl").fadeIn(1500);
+    });
+});
