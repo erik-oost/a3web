@@ -25,47 +25,53 @@ body {
 }
 /* End Source */
 
-/* css for general tags */
+/* css for general tags  -  Lucy Lin */
 h1 {
 	background-color: aliceblue;
 	text-align: center;
 	padding-top: 3%;
 	padding-bottom: 3%;
 }
-p1 {
-	font-size: 1.5em;
-	margin-left: 5%;
-}
 p {
 	font-size: 1em;
 	margin-top: 1%;
 	margin-bottom: 1%;
 }
+/* end general tags */
 
-/* Columns in team page */
-
-.column {
-	float: right;
-	width: 40%;
-	margin-left: 3em;
-	margin-right: 3em;
-	margin-bottom: 10em
+/* Columns in team page  - Lucy Lin */
+.leftcolumn {
+	float: left;
+	width: 50%;
+	margin-bottom: 5em
 	;
+}
+.rightcolumn {
+	float: right;
+	width: 50%;
+	margin-bottom: 5em;
 }
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
+@media screen and (max-width: 700px) {
+	.leftcolumn {
+		width: 100%;
+	}
+	.rightcolumn {
+		width: 100%;
+	}
+}
 /* End columns in team page */
 
-/* css for divs in columns on team page */
+/* css for divs in columns on team page  -  Lucy Lin */
 .headshot_container {
 	text-align: center;
 }
 .info_container {
 	text-align: center;
-	size: relative;
 	margin-bottom: 20%;
 }
 .About {
@@ -87,6 +93,6 @@ button {
 }
 
 }
-/* end team page column */
+/* end team page divs */
 
 
