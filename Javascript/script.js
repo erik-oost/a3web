@@ -4,4 +4,6 @@ function erikcontactbutton() {
 function lucycontactbutton() {
     document.getElementById("lucyemail").innerHTML = "lucy@ourcompany.ca";
 }
-
+function logobutton() {
+    document.getElementById("logotext").
+}

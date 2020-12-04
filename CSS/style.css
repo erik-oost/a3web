@@ -37,6 +37,9 @@ p {
 	margin-top: 1%;
 	margin-bottom: 1%;
 }
+img {
+	border-radius: 30%;
+}
 /* end general tags */
 
 /* Columns in team page  - Lucy Lin */
@@ -74,14 +77,13 @@ p {
 	text-align: center;
 	margin-bottom: 20%;
 }
-.About {
-	font: ;
+.largesubheads {
 	font-size: 2em;
-	margin-top: 8%;
-	margin-bottom: 8%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 	color: rgb(65, 133, 160)
 }
-.about_headings {
+.smallheadings {
 	font-size: 1.3em;
 	margin-top: 4%;
 	color: skyblue;
@@ -91,8 +93,43 @@ button {
 	border: none;
 	background-color: transparent;
 }
-
-}
 /* end team page divs */
+
+/* Contact Page column css  - Lucy Lin */
+.center_column {
+	width: inherit;
+	float: center;
+	text-align: center;
+}
+.logos {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.logotext {
+	color:
+}
+
+/*fade in boxes on contact page  -  Lucy Lin */
+.phonenumber {
+	padding: 2.5em;
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	background-color: aliceblue;
+}
+.email {
+	padding: 2.5em;
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	background-color: aliceblue;
+}
+.facebookurl {
+	padding: 2.5em;
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	background-color: aliceblue;
+}
 
 
