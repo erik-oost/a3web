@@ -1,3 +1,7 @@
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* NAVIGATION BAR */
 /* Source: https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
 .menu{
@@ -20,7 +24,20 @@
 }
 /* End Source */
 
+/* css for general tags */
+h1 {
+	background-color: aliceblue;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
 /* Columns in team page */
+.row {
+	margin-left: 12%;
+	margin-right: 12%;
+	margin-top: 10%;
+}
 .left_column {
 	float: left;
 	width: 30%;
@@ -41,7 +58,13 @@
 /* End columns in team page */
 
 /* css for divs in columns on team page */
-.headshot_container {
-	
+
+/* end team page column */
+
+/* img css */
+img {
+	border-radius: 30%;
+	max-width: 100%;
+	height: auto;
 }
 
