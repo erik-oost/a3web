@@ -31,6 +31,16 @@ h1 {
 	padding-top: 3%;
 	padding-bottom: 3%;
 }
+p1 {
+	font-size: 1.5em;
+	margin-left: 5%;
+}
+p {
+	font-size: 1em;
+	margin-left: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
 
 /* Columns in team page */
 .row {
@@ -39,16 +49,11 @@ h1 {
 	margin-top: 10%;
 }
 .left_column {
-	float: left;
-	width: 30%;
-}
-.centre_column {
-	float: left;
-	width: 45%;
+	float: left
+	;
 }
 .right_column {
-	float: left;
-	width: 25%;
+	float: right;
 }
 .row:after {
 	content: "";
@@ -58,7 +63,12 @@ h1 {
 /* End columns in team page */
 
 /* css for divs in columns on team page */
+.info_container {
+	size: relative;
+	vertical-align: middle;
+	margin-bottom: 20%;
 
+}
 /* end team page column */
 
 /* img css */
