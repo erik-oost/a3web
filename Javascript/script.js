@@ -1,3 +1,4 @@
+// Main javascript: Lucy Lin
 function erikcontactbutton() {
     document.getElementById("erikemail").innerHTML = "erik@ourcompany.ca";
 }
@@ -19,3 +20,13 @@ $(document).ready(function(){
         $("#facebookurl").fadeIn(1500);
     });
 });
+
+// Mobile menu javascript: Erik Oosterbaan
+function mobilemenu() {
+    var x = document.getElementById("menu");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+}

@@ -3,6 +3,8 @@
 
 <head>
   <link rel="stylesheet" href="CSS\\style.css"> <!-- external stylesheet link -->
+  <!-- External source for mobile navbar icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--   Javascript Owner: Lucy Lin   -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="Javascript\\script.js"></script> <!-- external javascript link -->
@@ -10,19 +12,18 @@
 </head>
 <meta name="viewport" content="width = device-width, initial-scale = 1.0">
 
-
 <body>
-  <!--
-  MENU OWNER: Erik 
-  - Avoid using only overly generic menu titles (can use things such as about, contact, etc. but should include more interesting ones as well)
-  - Also should probably omit using any social links until the contactspage so users will have less reason to leave the web page.
-  -->
-  <ul class="menu">
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="team.html">MEET THE TEAM</a></li>
-    <li><a href="about.html">ABOUT US</a></li>
-    <li><a href="contact.html">CONTACT</a></li>
-  </ul>
+<!-- Navbar Owner: Erik Oosterbaan -->
+<!-- Mobile menu source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+<div class="navbar" id="menu">
+  <a href="index.html">HOME</a>
+  <a href="team.html">MEET THE TEAM</a>
+  <a href="about.html">ABOUT US</a>
+  <a href="contact.html">CONTACT</a>
+  <a href="javascript:void(0);" class="icon" onclick="mobilemenu()">
+      <i class="fa fa-bars"></i>
+  </a>
+</div>
 
   <h1>Test Title</h1>
   <p>Sample text here.</p>
