@@ -4,10 +4,16 @@ body {
 }
 
 /* navbar -  Erik Oosterbaan */
-/* Source: https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
+/* Source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 .navbar{
 	overflow: hidden;
 	background-color: rgb(65, 133, 160);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.topitem {
+	margin-top: 70px;
 }
 .navbar a{
 	float: left;
@@ -59,6 +65,11 @@ h1 {
 	padding-top: 3%;
 	padding-bottom: 3%;
 }
+h2 {
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
 p {
 	font-size: 1em;
 	margin-top: 1%;
@@ -69,7 +80,29 @@ img {
 }
 /* end general tags */
 
-/* Columns in team page  - Lucy Lin */
+/* Home page header image -  Erik Oosterbaan */
+.homeartcontainer {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+	opacity: 100%;
+}
+.header {
+	border-radius: 10px;
+	max-width: 100%;
+}
+
+/* Home page text formatting -  Erik Oosterbaan */
+#homeh2 {
+	text-align: center;
+	color: rgb(105, 183, 214);
+	font-size: 1.5em;
+}
+#homep {
+	text-align: center;
+}
+
+/* Columns in team page  -  Lucy Lin */
 .leftcolumn {
 	float: left;
 	width: 50%;
@@ -122,7 +155,49 @@ button {
 }
 /* end team page divs */
 
-/* Contact Page column css  - Lucy Lin */
+/* About Page services accordion  -  Erik Oosterbaan*/
+/* Source: https://codepen.io/samarkandiy/pen/FpuHb */
+.services{
+	background: rgb(105, 183, 214);
+	color: aliceblue;
+	padding-top: 5px;
+}
+.services input[type='radio']:checked ~ .info{
+	height: 200px;
+	transition: .5s ease;
+}
+input[type='radio']{
+	width: 100%;
+	display: none;
+}
+label{
+	width: 100%;
+	cursor: default;
+}
+span{
+	font-family: 'Lucida Sans';
+	font-weight: bold;
+	font-style: italic;
+	display: block;
+	padding: 8px 12px 12px 12px;
+	margin: 0;
+	cursor: pointer;
+}
+.info{
+	background: aliceblue;
+	color: black;
+	font-size: 0.9em;
+	width: 100%;
+	height: 0;
+	line-height: 2;
+	padding-left: 15px;
+	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
+	transition: .5s ease;
+} 
+
+/* Contact Page column css  -  Lucy Lin */
 .center_column {
 	width: inherit;
 	float: center;
