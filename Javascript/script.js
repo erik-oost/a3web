@@ -1,9 +1,9 @@
 // Main javascript: Lucy Lin
 function erikcontactbutton() {
-    document.getElementById("erikemail").innerHTML = "erik@ourcompany.ca";
+    document.getElementById("erikemail").innerHTML = "erik@elconsulting.ca";
 }
 function lucycontactbutton() {
-    document.getElementById("lucyemail").innerHTML = "lucy@ourcompany.ca";
+    document.getElementById("lucyemail").innerHTML = "lucy@elconsulting.ca";
 }
 $(document).ready(function(){
     $("button1").click(function(){

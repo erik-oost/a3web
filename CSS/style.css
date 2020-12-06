@@ -1,3 +1,4 @@
+/*  Body default CSS  -  Lucy Lin */
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: medium;
@@ -147,8 +148,6 @@ p.bannerspace{
 		width: 100%;
 	}
 }
-/* End columns in team page */
-
 /* css for divs in columns on team page  -  Lucy Lin */
 .headshot_container {
 	text-align: center;
@@ -173,8 +172,6 @@ button {
 	border: none;
 	background-color: transparent;
 }
-/* end team page divs */
-
 /* About Page services accordion  -  Erik Oosterbaan*/
 /* Source: https://codepen.io/samarkandiy/pen/FpuHb */
 .services{
@@ -216,7 +213,6 @@ span{
 	box-sizing: border-box;
 	transition: .5s ease;
 } 
-
 /* Contact Page column css  -  Lucy Lin */
 .center_column {
 	width: inherit;
@@ -227,10 +223,6 @@ span{
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
-.logotext {
-	color:
-}
-
 /*fade in boxes on contact page  -  Lucy Lin */
 .phonenumber {
 	padding: 2.5em;
