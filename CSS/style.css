@@ -8,12 +8,14 @@ body {
 .navbar{
 	overflow: hidden;
 	background-color: rgb(65, 133, 160);
-	position: fixed;
+	position: relative;
 	top: 0;
 	width: 100%;
 }
 .topitem {
-	margin-top: 70px;
+	margin-top: 1em;
+	margin: auto;
+	margin-bottom: 1.2em;
 }
 .navbar a{
 	float: left;
@@ -60,7 +62,8 @@ body {
 
 /* css for general tags  -  Lucy Lin */
 h1 {
-	background-color: aliceblue;
+	background-color: rgb(245, 250, 255);
+	margin: auto;
 	text-align: center;
 	padding-top: 3%;
 	padding-bottom: 3%;
@@ -103,7 +106,21 @@ img {
 	text-align: center;
 	margin-bottom: 10em
 }
+/*Home page banner formatting  - Lucy Lin */
+img.banner {
+	border-radius: 0;
+	width:auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 90%;
+}
+.topanchor {
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	background-color: white;
 
+}
 /* Columns in team page  -  Lucy Lin */
 .leftcolumn {
 	float: left;
