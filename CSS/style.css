@@ -251,9 +251,18 @@ span{
 	float: center;
 	text-align: center;
 }
-.logos {
-	margin-top: 3em;
+.button1 {
+	display: block;
 	margin-bottom: 3em;
+	margin-top: 2em;
+}
+.button2 {
+	display: block;
+	margin-bottom: 3em;
+}
+.button3 {
+	display: block;
+	margin-bottom: 4em;
 }
 /*fade in boxes on contact page  -  Lucy Lin */
 .phonenumber {
