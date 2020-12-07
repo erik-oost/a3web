@@ -38,7 +38,6 @@ body {
 .navbar a.active {
 	background-color: rgb(65, 133, 160);
 	color: aliceblue;
-	font-style: bold;
   }
 @media screen and (max-width: 600px) {
 	.navbar a:not(:first-child) {display:none;}
@@ -248,7 +247,6 @@ span{
 /* Contact Page column css  -  Lucy Lin */
 .center_column {
 	width: inherit;
-	float: center;
 	text-align: center;
 }
 #button1 {
