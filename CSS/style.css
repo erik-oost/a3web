@@ -251,19 +251,19 @@ span{
 	float: center;
 	text-align: center;
 }
-.button1 {
+#button1 {
 	text-align: center;
 	display: block;
 	margin-bottom: 3em;
 	margin-top: 2em;
 }
-.button2 {
+#button2 {
 	text-align: center;
 	display: block;
 	margin-bottom: 3em;
 	margin-top: 2em;
 }
-.button3 {
+#button3 {
 	text-align: center;
 	display: block;
 	margin-bottom: 4em;

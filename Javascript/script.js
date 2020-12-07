@@ -6,17 +6,17 @@ function lucycontactbutton() {
     document.getElementById("lucyemail").innerHTML = "lucy@elconsulting.ca";
 }
 $(document).ready(function(){
-    $("button1").click(function(){
+    $("#button1").click(function(){
         $("#phonenumber").fadeIn(1500);
     });
 });
 $(document).ready(function(){
-    $("button2").click(function(){
+    $("#button2").click(function(){
         $("#email").fadeIn(1500);
     });
 });
 $(document).ready(function(){
-    $("button3").click(function(){
+    $("#button3").click(function(){
         $("#facebookurl").fadeIn(1500);
     });
 });
