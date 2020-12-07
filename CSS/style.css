@@ -252,17 +252,22 @@ span{
 	text-align: center;
 }
 .button1 {
+	text-align: center;
 	display: block;
 	margin-bottom: 3em;
 	margin-top: 2em;
 }
 .button2 {
+	text-align: center;
 	display: block;
 	margin-bottom: 3em;
+	margin-top: 2em;
 }
 .button3 {
+	text-align: center;
 	display: block;
 	margin-bottom: 4em;
+	margin-top: 2em;
 }
 /*fade in boxes on contact page  -  Lucy Lin */
 .phonenumber {
