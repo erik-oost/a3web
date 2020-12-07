@@ -107,7 +107,7 @@ img {
 }
 #homep {
 	text-align: center;
-	margin-bottom: 10em
+	margin-bottom: 2em;
 }
 /* End home page text */
 
@@ -127,6 +127,26 @@ p.bannerspace{
 	background-color: white;
 }
 /* End home page banner */
+
+/* Home page flexbox  -  Erik Oosterbaan */
+/* Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox */
+.home-flex {
+	display: flex;
+	background-color: aliceblue;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.homeimg {
+	max-width: 50%;
+}
+.homediv {
+	flex: 1 1 auto;
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+/* End home page flexbox */
 
 /* Columns in team page  -  Lucy Lin */
 .leftcolumn {
